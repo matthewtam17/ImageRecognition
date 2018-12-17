@@ -1,0 +1,69 @@
+{
+  "name": "imgrec-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@google-cloud/vision": "^0.23.0",
+    "buefy": "^0.7.1",
+    "firebase": "^5.6.0",
+    "firebase-admin": "^6.3.0",
+    "firebase-functions": "^2.1.0",
+    "grpc": "^1.17.0-pre1",
+    "http2": "^3.3.7",
+    "node-gyp": "^3.8.0",
+    "node-pre-gyp": "^0.12.0",
+    "rebuild": "^0.1.2",
+    "request": "^2.88.0",
+    "tesseract.js": "^1.0.14",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuexfire": "^3.0.0-alpha.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "bulma": "^0.7.2",
+    "css-loader": "^1.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.26.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/airbnb"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
